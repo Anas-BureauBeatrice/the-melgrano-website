@@ -1,0 +1,40 @@
+/* Reset some default styles for the body */
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-family: 'Red Hat Display', sans-serif;
+  background-color: #630E23;
+}
+
+/* Center the container */
+.coming-soon-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Style the coming-soon text */
+.coming-soon-text {
+  font-size: 26px;
+  color: #90775D;
+  position: fixed;
+  bottom: 50px; 
+  width: 100%; 
+  text-align: center; 
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+  .logo-image {
+    max-width: 70%;
+    margin-bottom: 20%;
+  }
+  .coming-soon-text {
+    font-size: 18px;
+    bottom: 50px;
+  }
+}
