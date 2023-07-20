@@ -3,7 +3,7 @@ body {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  font-family: 'Red Hat Display', sans-serif;
+  font-family: 'Red Hat Display';
   background-color: #630E23;
 }
 
@@ -19,12 +19,25 @@ body {
 
 /* Style the coming-soon text */
 .coming-soon-text {
-  font-size: 26px;
   color: #90775D;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 3.9px;
+  text-transform: uppercase;
   position: fixed;
   bottom: 50px; 
   width: 100%; 
   text-align: center; 
+}
+.logo-image{
+  width: 565.716px;
+  height: 36.448px;
+  flex-shrink: 0;
+  filter: invert(44%) sepia(3%) saturate(4491%) hue-rotate(350deg) brightness(105%) contrast(68%);
+  stroke-width: 1px;
+  stroke: #000;
 }
 
 /* Media queries for responsiveness */
