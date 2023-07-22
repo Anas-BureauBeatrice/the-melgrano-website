@@ -1,53 +1,47 @@
-/* Reset some default styles for the body */
-body {
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  font-family: 'Red Hat Display';
-  background-color: #630E23;
-}
-
-/* Center the container */
-.coming-soon-container {
-  position: relative;
+.launching-soon-melgrano-web {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
+  background-color: var(--background-color);
+  width: 100%;
   height: 100vh;
+  text-align: center;
+  font-size: var(--base-font-size);
+  color: var(--primary-color);
+  font-family: var(--font-red-hat-display);
+  padding: var(--base-padding);
 }
 
-/* Style the coming-soon text */
-.coming-soon-text {
-  color: #90775D;
-  font-size: 26px;
-  font-style: normal;
+.content {
+  display: flex;
+  flex-grow: 1;
+  align-items: center; 
+  justify-content: center; 
+}
+
+.vector-icon {
+  max-width: 90%;
+  height: auto;
+}
+
+.coming-soon {
+  letter-spacing: 0.15em;
+  font-size: 1.125rem;
   font-weight: 400;
-  line-height: normal;
-  letter-spacing: 3.9px;
   text-transform: uppercase;
-  position: fixed;
-  bottom: 50px; 
-  width: 100%; 
-  text-align: center; 
-}
-.logo-image{
-  width: 565.716px;
-  height: 36.448px;
-  flex-shrink: 0;
-  filter: invert(44%) sepia(3%) saturate(4491%) hue-rotate(350deg) brightness(105%) contrast(68%);
-  stroke-width: 1px;
-  stroke: #000;
+  margin-bottom: 10rem;
 }
 
-/* Media queries for responsiveness */
+
 @media (max-width: 768px) {
-  .logo-image {
-    max-width: 70%;
-    margin-bottom: 20%;
+  :root {
+    --base-font-size: 20px;
   }
-  .coming-soon-text {
-    font-size: 18px;
-    bottom: 50px;
+}
+
+@media (max-width: 480px) {
+  :root {
+    --base-font-size: 16px;
   }
 }
