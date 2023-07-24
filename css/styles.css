@@ -36,12 +36,24 @@
 
 @media (max-width: 768px) {
   :root {
-    --base-font-size: 20px;
+    font-size: 0.9 rem;
+  }
+  .vector-icon {
+    max-width: 80%;
+  }
+  .coming-soon {
+    margin-bottom: 15rem;
   }
 }
 
 @media (max-width: 480px) {
   :root {
-    --base-font-size: 16px;
+    font-size: 0.6rem;
+  }
+  .vector-icon {
+    max-width: 70%;
+  }
+  .coming-soon {
+    margin-bottom: 20rem;
   }
 }
