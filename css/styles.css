@@ -35,7 +35,7 @@
   font-size: 1.125rem;
   font-weight: 400;
   text-transform: uppercase;
-  margin-bottom: -12.5rem;
+  margin-top: 66.5vh;
 }
 
 
@@ -46,9 +46,6 @@
   .vector-icon {
     max-width: 80%;
   }
-  .coming-soon {
-    margin-bottom: -8rem;
-  }
 }
 
 @media (max-width: 480px) {
@@ -57,8 +54,5 @@
   }
   .vector-icon {
     max-width: 70%;
-  }
-  .coming-soon {
-    margin-bottom: -4rem;
   }
 }
