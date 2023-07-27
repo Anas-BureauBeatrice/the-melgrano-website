@@ -49,6 +49,9 @@
   body {
     overflow: hidden;
   }
+  .coming-soon {
+    margin-top: 50vh;
+  }
 }
 
 @media (max-width: 480px) {
@@ -60,5 +63,8 @@
   }
   body {
     overflow: hidden;
+  }
+  .coming-soon {
+    margin-top: 40vh;
   }
 }
